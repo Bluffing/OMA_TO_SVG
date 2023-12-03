@@ -5,7 +5,12 @@
     <TargetFramework>netcoreapp3.1</TargetFramework>
     <RootNamespace>OMA2SVG</RootNamespace>
     <UseWindowsForms>true</UseWindowsForms>
+    <ApplicationIcon>Properties\Icon2.ico</ApplicationIcon>
   </PropertyGroup>
+
+  <ItemGroup>
+    <Content Include="Properties\Icon2.ico" />
+  </ItemGroup>
 
   <ItemGroup>
     <Compile Update="Properties\Settings.Designer.cs">
