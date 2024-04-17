@@ -1,4 +1,4 @@
-# OMA_TO_SVG
+# OMA TO SVG Converter
 .oma to .svg file converter
 
 Steps:
