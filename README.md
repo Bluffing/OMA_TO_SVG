@@ -1,16 +1,45 @@
-# OMA TO SVG Converter
-.oma to .svg file converter
+# OMA to SVG Converter
 
-Steps:
-1. Choose the Output folder (click on the "BROWSE FOR OUPUT PATH" button or drag and drop the folder)
-	1. If left empty, the .svg file will be in the same folder as the .oma file
-2. Drag and drop the .oma file you want to convert onto the grid
-	1. If you drop a folder it will automatically add all .oma file in it
-3. Ajust
-	1. Rotation : output rotation of each lens (clockwise for both)
-	2. Width and height : output window size
-	3. Rescale factor : rescale of the output result
-	4. Drill point number : if there is a drill point in the .oma file, this will specify the number of points necessary for this hole (if left at 0 points, no drill hole will be drawn)
-	5. Apply rescale to drill holes : applies the rescale factor to drill holes or not
-	6. **To rename output path**, simply modify the output column in the grid
-4. Click the CONVERT button
+A tool to convert `.oma` files into `.svg` format with customizable options.
+
+## Features
+
+- Convert `.oma` files to `.svg` format.
+- Batch processing: Drag and drop multiple `.oma` files or entire folders.
+- Customizable output settings:
+    - Rotation
+    - Window size (width and height)
+    - Rescale factor
+    - Drill point configuration
+- Option to rename output paths directly in the grid.
+
+## How to Use
+
+### 1. Choose the Output Folder
+
+- Click the **"BROWSE FOR OUTPUT PATH"** button or drag and drop a folder.
+- If left empty, the `.svg` files will be saved in the same folder as the `.oma` files.
+
+### 2. Add Files
+
+- Drag and drop the `.oma` file(s) you want to convert onto the grid.
+- If you drop a folder, all `.oma` files within it will be added automatically.
+
+### 3. Adjust Settings
+
+Customize the following options for your output:
+- **Rotation**: Set the clockwise rotation for each lens.
+- **Width and Height**: Define the output window size.
+- **Rescale Factor**: Adjust the scaling of the output.
+- **Drill Point Number**: Specify the number of points for drill holes in the `.oma` file. If set to `0`, no drill holes will be drawn.
+- **Apply Rescale to Drill Holes**: Choose whether to apply the rescale factor to drill holes.
+- **Rename Output Path**: Modify the output column in the grid to rename the output file path.
+
+### 4. Convert
+
+- Click the **CONVERT** button to generate the `.svg` files.
+
+## Notes
+
+- Ensure the `.oma` files are properly formatted before conversion.
+- The tool automatically handles batch processing for multiple files or folders.
